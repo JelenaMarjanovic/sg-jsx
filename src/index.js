@@ -11,7 +11,10 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
   return (
-    <textarea autoFocus={true} />
+    <div>
+      <input style={{ display: 'block', marginBottom: '1rem' }} spellCheck />
+      <textarea autoFocus={true} />
+    </div>
   );
 }
 
